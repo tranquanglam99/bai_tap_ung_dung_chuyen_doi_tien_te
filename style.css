@@ -1,0 +1,76 @@
+body {
+font-size: 28px;
+}
+
+.backgr {
+    width: 515px;
+    margin-top: 40px;
+    margin-left: 100px;
+    border: 10px solid #FF9900;
+}
+
+.frames {
+    
+    background-color: #CC9933;
+    border: 10px solid #CC9933;
+}
+
+#amount {
+    margin-left: 95px;
+    width: 250px;
+    height: 43px;
+    text-align: center;
+    font-size: 28px;
+}
+
+#from {
+    margin-left: 20px;
+    width: 220px;
+    height: 40px;
+    text-align: center;
+    font-size: 28px;
+}
+#from:hover {
+    background-color: #777777;
+}
+
+#to {
+    margin-left: 52px;
+    width: 220px;
+    height: 40px;
+    text-align: center;
+    font-size: 28px;
+}
+
+#to:hover {
+    background-color: #777777;
+}
+
+#convert {
+    width: 220px;
+    height: 40px;
+    text-align: center;
+    font-size: 28px;
+    margin-left: 186px;
+}
+
+#convert:hover {
+    background-color: #777777;
+}
+
+#display {
+    width: 300px;
+    height: 43px;
+    text-align: center;
+    font-size: 28px;
+    margin-left: 186px;
+    color: black;
+}
+
+.class2 {
+    float: left;
+}
+
+form div {
+    margin-bottom: 20px;
+}

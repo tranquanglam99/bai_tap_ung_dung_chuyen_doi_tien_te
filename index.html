@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <div class="backgr">
+
+        <form action="" class="frames">
+
+            <div>
+                <span class="class2">amount:</span>
+                <input type="number" id="amount">
+            </div>
+
+            <div>
+                <span class="class2">from currency:</span>
+                <select id="from">
+                    <option value="USD">Đô la Mỹ</option>
+                    <option value="VND">Việt Nam Đồng</option>
+                    <option value="JPY">Yên Nhật</option>
+                </select>   
+            </div>
+
+            <div>
+                <span class="class2">to currency:</span>
+                <select id="to">
+                    <option value="USD">Đô la Mỹ</option>
+                    <option value="VND">Việt Nam Đồng</option>
+                    <option value="JPY">Yên Nhật</option>
+                </select>
+            </div>
+
+            <div>
+                <button type="button" value="convert" id="convert">convert</button>
+            </div>
+
+            <div>
+                <input type="text" id="display" value="" disabled>
+            </div>
+
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
